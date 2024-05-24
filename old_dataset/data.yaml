@@ -1,0 +1,8 @@
+path: C:/Users/kamal/Desktop/THESIS/
+
+train: C:/Users/kamal/Desktop/THESIS/train/images
+val: C:/Users/kamal/Desktop/THESIS/valid/images
+test: C:/Users/kamal/Desktop/THESIS/test/images
+
+nc: 2
+names: ['license-plate', 'vehicle']

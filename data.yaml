@@ -1,0 +1,13 @@
+train: ../train.txt
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['license-plate', 'vehicle']
+
+roboflow:
+  workspace: university-hksok
+  project: license-plates-us-eu-z4w48
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/university-hksok/license-plates-us-eu-z4w48/1
