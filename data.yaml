@@ -1,4 +1,4 @@
-train: /home/kamalsalahov/thesis/train.txt
+train: /home/kamalsalahov/thesis/train/images
 val: /home/kamalsalahov/thesis/valid/images
 test: /home/kamalsalahov/thesis/test/images
 
