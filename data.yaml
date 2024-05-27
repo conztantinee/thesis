@@ -1,6 +1,6 @@
-train: ../train.txt
-val: ../valid/images
-test: ../test/images
+train: /home/kamalsalahov/thesis/train.txt
+val: /home/kamalsalahov/thesis/valid/images
+test: /home/kamalsalahov/thesis/test/images
 
 nc: 2
 names: ['license-plate', 'vehicle']
