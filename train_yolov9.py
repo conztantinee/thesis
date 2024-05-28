@@ -9,13 +9,12 @@ model = torch.nn.DataParallel(model)
 
 # Train the model
 results = model.train(
-    data='data.yaml',
+    data='dataset.yaml',
     epochs=50,
     imgsz=640,
     batch=32,  # You can increase the batch size when using multiple GPUs
     device=0,  # Specify the starting GPU device, DataParallel will handle the rest
     cache=False,  # cache=False is important!
-    amp=True  # Enable Automatic Mixed Precision
 )
 
 # Training loop with GPU cache cleaning
