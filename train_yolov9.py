@@ -2,21 +2,20 @@ import torch
 from ultralytics import YOLO
 
 # Initialize the YOLO model
-model = YOLO('yolov8n.pt')
+model = YOLO('yolov9c.pt')
 
 # Train the model
 results = model.train(
     data='data.yaml',
-    epochs=250,
+    epochs=50,
     imgsz=640,
-    batch=8,  # Set a smaller batch size
+    batch=-1,  # Set a smaller batch size
     device=1,
     cache=False,  # cache=False is important!
-    amp=True  # Enable Automatic Mixed Precision
 )
 
 # Training loop with GPU cache cleaning
-num_epochs = 250
+num_epochs = 50
 
 for epoch in range(num_epochs):
     # Perform training for one epoch
