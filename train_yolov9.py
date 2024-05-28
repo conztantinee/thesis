@@ -6,7 +6,7 @@ model = YOLO('yolov9c.pt')
 
 # Train the model
 results = model.train(
-    data='dataset.yaml',
+    data='data.yaml',
     epochs=250,
     imgsz=640,
     batch=-1,
