@@ -10,7 +10,7 @@ results = model.train(
     epochs=250,
     imgsz=640,
     batch=8,  # Set a smaller batch size
-    device=0,
+    device=1,
     cache=False,  # cache=False is important!
     amp=True  # Enable Automatic Mixed Precision
 )
