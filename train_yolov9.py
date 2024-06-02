@@ -12,9 +12,9 @@ results = model.train(
     data='dataset.yaml',
     epochs=50,
     imgsz=640,
-    batch=32,  # You can increase the batch size when using multiple GPUs
-    device=0,  # Specify the starting GPU device, DataParallel will handle the rest
-    cache=False,  # cache=False is important!
+    batch=32,  
+    device=0,  
+    cache=False,  
 )
 
 # Training loop with GPU cache cleaning

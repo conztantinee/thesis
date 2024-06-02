@@ -1,6 +1,6 @@
-train: /home/kamalsalahov/thesis/train/images
-val: /home/kamalsalahov/thesis/valid/images
-test: /home/kamalsalahov/thesis/test/images
+train: /Users/kamal/Desktop/thesis/thesis/train/images
+val: /Users/kamal/Desktop/thesis/thesis/valid/images
+test: /Users/kamal/Desktop/thesis/thesis/test/images
 
 nc: 2
 names: ['license-plate', 'vehicle']
